@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: ShortCode Redirect
-Plugin URI: http://cartpauj.icomnow.com/projects/shortcode-redirect-plugin/
+Plugin URI: https://github.com/cartpauj/shortcode-redirect
 Description: This plugin allows you to add a shortcode to a page. When this shortcode is executed it re-directs the user to a pre-defined URL. You can also set how many seconds to wait before redirecting the user.
 Author: Cartpauj
-Version: 1.0.03
-Author URI: http://cartpauj.icomnow.com
+Version: 1.0.4
+Author URI: https://github.com/cartpauj
 
 GNU General Public License, Free Software Foundation <http://creativecommons.org/licenses/GPL/2.0/>
 This program is free software; you can redistribute it and/or modify

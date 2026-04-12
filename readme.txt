@@ -1,10 +1,9 @@
 === Shortcode Redirect ===
 Contributors: cartpauj
-Donate link: http://www.memberpress.com/?aff=20
 Tags: redirect, rewrite, page, post, url
 Requires at least: 6.0
-Tested up to: 6.8
-Stable tag: 1.0.03
+Tested up to: 6.9
+Stable tag: 1.0.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -41,6 +40,9 @@ Shortcode redirect should work with older versions of WordPress as well but was 
 n/a
 
 == Changelog ==
+= 1.0.4 =
+* Ensure compat with WP 6.9
+
 = 1.0.03 =
 * Fix XSS vulnerability (patchstack report efd671f0-81c0-4ca8-bbdb-11e6b63d3fe6)
 = 1.0.02 =
