@@ -3,7 +3,7 @@ Contributors: cartpauj
 Tags: redirect, block, gutenberg, url, shortcode
 Requires at least: 6.0
 Tested up to: 6.9
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,9 +44,6 @@ Example with all three:
 **Same output either way**
 
 Block or shortcode, the front-end renders the same single `<meta http-equiv="refresh">` tag (plus the optional one-line message). No JavaScript. No server-side redirect. No third-party tracking. Existing `[redirect]` shortcodes from earlier versions continue to work unchanged.
-
-= Donate =
-[If you like this plugin please consider donating](http://www.memberpress.com/?aff=20)
 
 = Features =
 * **Block editor support** — native "Redirect" block *(new in 1.1.0)*
@@ -94,13 +91,14 @@ No. The redirect is a plain HTML `<meta http-equiv="refresh">` tag. It works wit
 Yes — the Redirect block supports reuse, so you can save a configured redirect once and drop it anywhere.
 
 == Upgrade Notice ==
-= 1.1.0 =
+= 1.1.1 =
 Adds a native block editor block alongside the existing shortcode, plus a show/hide toggle for the "redirecting" message.
 
 == Changelog ==
-= 1.1.0 =
+= 1.1.1 =
 * **New:** Native block editor "Redirect" block (shares the same render logic as the shortcode)
 * **New:** Option to show or hide the "Please wait while you are redirected..." message — via the `show_message` shortcode attribute or the *Show "redirecting" message* block toggle
+* Hardened output escaping, added proper license headers, and added direct-access protection to satisfy Plugin Check
 
 = 1.0.4 =
 * Ensure compat with WP 6.9
