@@ -116,3 +116,8 @@ Adds a native block editor block alongside the existing shortcode, plus a show/h
 
 = 1.0.00 =
 * Initial release
+
+== Screenshots ==
+1. The **Redirect** block in the block editor — destination URL, delay, and "show message" toggle all live in the block sidebar, with a live summary inside the canvas.
+2. Using the classic `[redirect]` shortcode via the core Shortcode block — fully backwards compatible.
+3. The default "Please wait while you are redirected..." message that visitors see (with a manual fallback link) while the page waits to redirect.
