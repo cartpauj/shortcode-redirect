@@ -2,8 +2,8 @@
 Contributors: cartpauj
 Tags: redirect, block, gutenberg, url, shortcode
 Requires at least: 6.0
-Tested up to: 6.9
-Stable tag: 1.1.1
+Tested up to: 7.0
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -95,6 +95,9 @@ Yes — the Redirect block supports reuse, so you can save a configured redirect
 Adds a native block editor block alongside the existing shortcode, plus a show/hide toggle for the "redirecting" message.
 
 == Changelog ==
+= 1.1.2 =
+* Ensure WP 7.0 Compat
+
 = 1.1.1 =
 * **New:** Native block editor "Redirect" block (shares the same render logic as the shortcode)
 * **New:** Option to show or hide the "Please wait while you are redirected..." message — via the `show_message` shortcode attribute or the *Show "redirecting" message* block toggle

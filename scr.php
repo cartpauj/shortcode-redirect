@@ -4,7 +4,7 @@ Plugin Name: Shortcode Redirect
 Plugin URI: https://github.com/cartpauj/shortcode-redirect
 Description: Redirect visitors from any post or page to a chosen URL — via a native block or the classic [redirect] shortcode. Optional delay and optional "redirecting" message.
 Author: cartpauj
-Version: 1.1.1
+Version: 1.1.2
 Author URI: https://github.com/cartpauj
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
