@@ -2,8 +2,8 @@
 Contributors: cartpauj
 Tags: redirect, block, gutenberg, url, shortcode
 Requires at least: 6.0
-Tested up to: 7.0
-Stable tag: 1.1.2
+Tested up to: 7.1
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -95,6 +95,10 @@ Yes — the Redirect block supports reuse, so you can save a configured redirect
 Adds a native block editor block alongside the existing shortcode, plus a show/hide toggle for the "redirecting" message.
 
 == Changelog ==
+= 1.1.3 =
+* Ensure WP 7.1 Compat
+* Added direct-access protection to the block asset manifest
+
 = 1.1.2 =
 * Ensure WP 7.0 Compat
 
